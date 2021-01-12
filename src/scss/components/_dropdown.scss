@@ -10,7 +10,7 @@
   position: absolute;
   padding: 2px 0;
   background-color: #fff;
-  top: 34px;
+  top: 38px;
   width: max-content;
   right: 6px;
   box-shadow: 0 1px 6px 0 rgba(92, 78, 62, 0.28);
@@ -50,5 +50,6 @@
 
   &:hover {
     background-color: #f5fbff;
+    color: #292929;
   }
 }

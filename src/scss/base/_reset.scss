@@ -61,9 +61,10 @@ textarea {
   display: none;
 }
 
-.Ify-logo-small {
-  width: 164px;
-  height: 43px;
+dl,
+ol,
+ul {
+  margin: 0;
 }
 
 @media (min-width: 601px) {

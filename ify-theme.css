@@ -64,9 +64,10 @@ textarea {
   display: none;
 }
 
-.Ify-logo-small {
-  width: 164px;
-  height: 43px;
+dl,
+ol,
+ul {
+  margin: 0;
 }
 
 @media (min-width: 601px) {
@@ -146,6 +147,7 @@ textarea {
   font-size: 14px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .Ify-nav-link:hover {
@@ -250,7 +252,7 @@ textarea {
   color: #7a7a7a;
 }
 
-.Ify-sing-input-container {
+.Ify-input-group-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -350,6 +352,10 @@ textarea {
   color: #7a7a7a;
 }
 
+.Ify-input[readonly] {
+  background: #f1f1f1;
+}
+
 .Ify-dropdown-parent {
   position: relative;
 }
@@ -362,7 +368,7 @@ textarea {
   position: absolute;
   padding: 2px 0;
   background-color: #fff;
-  top: 34px;
+  top: 38px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -416,6 +422,7 @@ textarea {
 
 .Ify-dropdown-list:hover {
   background-color: #f5fbff;
+  color: #292929;
 }
 
 .Ify-tooltip-parent {
@@ -550,4 +557,15 @@ textarea {
 
 .Ify-tc {
   text-align: center;
+}
+
+.Ify-logo-medium {
+  width: 164px;
+  height: 43px;
+}
+
+.Ify-alert-success {
+  padding: 12px;
+  color: #419f2a;
+  background: #eef9eb;
 }

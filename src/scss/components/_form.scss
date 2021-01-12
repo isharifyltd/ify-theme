@@ -1,4 +1,7 @@
-.Ify-form-control {
+.Ify-sing-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .Ify-label {

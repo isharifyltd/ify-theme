@@ -58,3 +58,16 @@
     background-color: #fafafa;
   }
 }
+
+.Ify-btn-toggle-eye {
+  background: none;
+  border: none;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 8px;
+  color: #7a7a7a;
+}

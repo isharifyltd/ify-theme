@@ -64,6 +64,11 @@ textarea {
   display: none;
 }
 
+.Ify-logo-small {
+  width: 164px;
+  height: 43px;
+}
+
 @media (min-width: 601px) {
   .MuiPaper-root.MuiDialog-paper {
     overflow-y: unset;
@@ -223,6 +228,26 @@ textarea {
 
 .Ify-btn-cancel:hover {
   background-color: #fafafa;
+}
+
+.Ify-btn-toggle-eye {
+  background: none;
+  border: none;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 8px;
+  color: #7a7a7a;
 }
 
 .Ify-sing-input-container {
@@ -521,4 +546,8 @@ textarea {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+}
+
+.Ify-tc {
+  text-align: center;
 }

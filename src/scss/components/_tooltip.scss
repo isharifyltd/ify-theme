@@ -1,0 +1,35 @@
+.Ify-tooltip-parent {
+  position: relative;
+  &:hover .Ify-tooltip {
+    display: block;
+  }
+}
+
+.Ify-tooltip {
+  position: absolute;
+  padding: 4px 8px;
+  font-size: 11px;
+  width: max-content;
+  line-height: 16px;
+  color: #7a7a7a;
+  background-color: #fff;
+  top: -30px;
+  box-shadow: 0 1px 6px 0 rgba(92, 78, 62, 0.28);
+  display: none;
+  z-index: 1;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    width: 0;
+    height: 0;
+    left: 5px;
+    border-color: transparent transparent #fff #fff;
+    border-style: solid;
+    border-width: 5px;
+    transform-origin: 0 0;
+    transform: rotate(314deg);
+    box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.05);
+  }
+}

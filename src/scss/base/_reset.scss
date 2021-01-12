@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  color: #292922;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Scrollbar start */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  overflow: visible;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dadce0;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #80868b;
+  cursor: pointer;
+}
+/* Scrollbar end */
+
+#root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+textarea {
+  cursor: auto;
+}
+
+.MuiPaper-rounded {
+  border-radius: 0px !important;
+}
+
+.MuiTouchRipple-root {
+  display: none;
+}
+
+@media (min-width: 601px) {
+  .MuiPaper-root.MuiDialog-paper {
+    overflow-y: unset;
+  }
+}
+
+@media (max-width: 600px) {
+  *,
+  *::before,
+  *::after {
+    cursor: default !important;
+  }
+
+  ::-webkit-scrollbar {
+    width: 2px;
+    height: 0px;
+  }
+}

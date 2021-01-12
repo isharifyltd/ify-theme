@@ -1,0 +1,54 @@
+.Ify-dropdown-parent {
+  position: relative;
+
+  &:hover .Ify-dropdown {
+    visibility: visible;
+  }
+}
+
+.Ify-dropdown {
+  position: absolute;
+  padding: 2px 0;
+  background-color: #fff;
+  top: 34px;
+  width: max-content;
+  right: 6px;
+  box-shadow: 0 1px 6px 0 rgba(92, 78, 62, 0.28);
+  z-index: 9999;
+  visibility: hidden;
+  transition: visibility 0.3s;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    right: 0;
+    border: 6px solid black;
+    border-color: transparent transparent #fff #fff;
+    transform-origin: 0 0;
+    transform: rotate(135deg);
+    box-shadow: -2px 2px 3px 0 rgba(0, 0, 0, 0.02);
+  }
+}
+
+.Ify-dropdown-lists {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.Ify-dropdown-list {
+  padding: 8px 16px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 13px;
+  color: #292929;
+  line-height: 18px;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #f5fbff;
+  }
+}

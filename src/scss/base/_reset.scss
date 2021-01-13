@@ -13,6 +13,7 @@ body {
   line-height: 1.5;
   font-size: 14px;
   font-weight: normal;
+  overflow-x: hidden;
 }
 
 a {
@@ -53,24 +54,10 @@ textarea {
   cursor: auto;
 }
 
-.MuiPaper-rounded {
-  border-radius: 0px !important;
-}
-
-.MuiTouchRipple-root {
-  display: none;
-}
-
 dl,
 ol,
 ul {
   margin: 0;
-}
-
-@media (min-width: 601px) {
-  .MuiPaper-root.MuiDialog-paper {
-    overflow-y: unset;
-  }
 }
 
 @media (max-width: 600px) {

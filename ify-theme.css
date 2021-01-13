@@ -14,6 +14,7 @@ body {
   line-height: 1.5;
   font-size: 14px;
   font-weight: normal;
+  overflow-x: hidden;
 }
 
 a {
@@ -56,24 +57,10 @@ textarea {
   cursor: auto;
 }
 
-.MuiPaper-rounded {
-  border-radius: 0px !important;
-}
-
-.MuiTouchRipple-root {
-  display: none;
-}
-
 dl,
 ol,
 ul {
   margin: 0;
-}
-
-@media (min-width: 601px) {
-  .MuiPaper-root.MuiDialog-paper {
-    overflow-y: unset;
-  }
 }
 
 @media (max-width: 600px) {
@@ -88,10 +75,34 @@ ul {
   }
 }
 
+.Ify-heading-one,
+.Ify-heading-two,
+.Ify-heading-three,
+.Ify-heading-four,
+.Ify-heading-five,
+.Ify-heading-six {
+  font-weight: 500;
+  overflow-wrap: anywhere;
+}
+
+.Ify-heading-one {
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.Ify-heading-two {
+  font-size: 20px;
+  line-height: 26px;
+}
+
 .Ify-heading-three {
   font-size: 18px;
   line-height: 24px;
-  font-weight: 500;
+}
+
+.Ify-heading-four {
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .Ify-footer {
@@ -111,6 +122,19 @@ ul {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+.Ify-heading-and-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .Ify-navbar {
@@ -180,6 +204,7 @@ ul {
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  background-color: #fff;
 }
 
 .Ify-btn-primary {
@@ -230,6 +255,33 @@ ul {
 
 .Ify-btn-cancel:hover {
   background-color: #fafafa;
+}
+
+.Ify-btn-danger {
+  color: #f44336;
+  border: 1px solid #f44336;
+}
+
+.Ify-btn-danger:hover {
+  background-color: rgba(232, 65, 67, 0.05);
+}
+
+.Ify-inline-btn {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.Ify-inline-btn:hover {
+  text-decoration: underline;
+  background-color: unset !important;
+}
+
+.Ify-inline-btn.Ify-btn-danger {
+  border: none;
 }
 
 .Ify-btn-toggle-eye {
@@ -468,6 +520,109 @@ ul {
           box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.05);
 }
 
+.Ify-vertical-tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-column-gap: 70px;
+          column-gap: 70px;
+}
+
+.Ify-vertical-tab-left {
+  width: 244px;
+  min-width: 244px;
+}
+
+.Ify-tab-left-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 12px;
+}
+
+.Ify-tab-left-item {
+  position: relative;
+  padding: 10px 16px;
+  color: #7a7a7a;
+  font-size: 13px;
+  cursor: pointer;
+  border: 1px solid #d6d6d6;
+  text-align: left;
+  line-height: 14px;
+  background-color: #fff;
+  -webkit-transition-property: border, color;
+  transition-property: border, color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.Ify-tab-left-item:hover {
+  border: 1px solid #0097f3;
+  color: #0097f3;
+}
+
+.Ify-tab-left-item.active {
+  background-color: #0097f3;
+  border: 1px solid #0097f3;
+  color: #fff;
+}
+
+.Ify-tab-left-item.active:hover {
+  color: #fff;
+  border: 1px solid #0097f3;
+}
+
+.Ify-tab-left-item.active .Ify-is-tringle {
+  width: 18px;
+  height: 36px;
+  background-color: #0097f3;
+  position: absolute;
+  right: -19px;
+  top: -1px;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 50%);
+          clip-path: polygon(0 0, 0 100%, 100% 50%);
+}
+
+.Ify-vertical-tab-right {
+  width: 100%;
+}
+
+.Ify-table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.Ify-table th,
+.Ify-table td {
+  padding: 5px;
+}
+
+.Ify-table th {
+  border-bottom: 2px solid #f1f1f1;
+  background-color: #f5f5f5;
+  font-weight: 500;
+}
+
+.Ify-table td {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.Ify-table.Ify-table-md th,
+.Ify-table.Ify-table-md td {
+  padding: 8px;
+}
+
+.Ify-table.Ify-table-lg th,
+.Ify-table.Ify-table-lg td {
+  padding: 12px;
+}
+
 .Ify-p5 {
   padding: 5px;
 }
@@ -532,6 +687,14 @@ ul {
   margin-top: 24px;
 }
 
+.Ify-mt28 {
+  margin-top: 28px;
+}
+
+.Ify-mb28 {
+  margin-bottom: 28px;
+}
+
 .Ify-ml-auto {
   margin-left: auto;
 }
@@ -559,6 +722,22 @@ ul {
   text-align: center;
 }
 
+.Ify-fw-5 {
+  font-weight: 500;
+}
+
+.Ify-tr {
+  text-align: right;
+}
+
+.Ify-tl {
+  text-align: left;
+}
+
+.Ify-tc {
+  text-align: center;
+}
+
 .Ify-logo-medium {
   width: 164px;
   height: 43px;
@@ -568,4 +747,8 @@ ul {
   padding: 12px;
   color: #419f2a;
   background: #eef9eb;
+}
+
+.Ify-hide {
+  display: none;
 }

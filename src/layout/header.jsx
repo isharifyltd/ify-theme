@@ -3,7 +3,7 @@ import Nav from "../components/nav";
 
 const Header = () => {
   return (
-    <header>
+    <header className="Ify-sticky-top">
       <Nav />
     </header>
   );

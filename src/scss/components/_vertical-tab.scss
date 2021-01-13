@@ -1,0 +1,59 @@
+.Ify-vertical-tab {
+  display: flex;
+  margin: auto;
+  column-gap: 70px;
+}
+
+.Ify-vertical-tab-left {
+  width: 244px;
+  min-width: 244px;
+}
+
+.Ify-tab-left-items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.Ify-tab-left-item {
+  position: relative;
+  padding: 10px 16px;
+  color: #7a7a7a;
+  font-size: 13px;
+  cursor: pointer;
+  border: 1px solid #d6d6d6;
+  text-align: left;
+  line-height: 14px;
+  background-color: #fff;
+  transition-property: border, color;
+  transition-duration: 0.3s;
+
+  &:hover {
+    border: 1px solid #0097f3;
+    color: #0097f3;
+  }
+
+  &.active {
+    background-color: #0097f3;
+    border: 1px solid #0097f3;
+    color: #fff;
+    &:hover {
+      color: #fff;
+      border: 1px solid #0097f3;
+    }
+
+    & .Ify-is-tringle {
+      width: 18px;
+      height: 36px;
+      background-color: #0097f3;
+      position: absolute;
+      right: -19px;
+      top: -1px;
+      clip-path: polygon(0 0, 0 100%, 100% 50%);
+    }
+  }
+}
+
+.Ify-vertical-tab-right {
+  width: 100%;
+}

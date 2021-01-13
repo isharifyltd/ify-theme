@@ -3,6 +3,8 @@ import Form from "./components/form";
 import Header from "./layout/header";
 import Footer from "./layout/footer";
 import Tooltip from "./components/tooltip";
+import VerticalTabs from "./components/vertical-tabs";
+import Table from "./components/table";
 
 function App() {
   return (
@@ -37,6 +39,20 @@ function App() {
           <Form />
         </div>
         {/* Form components end */}
+
+        {/* Vertical tab components start */}
+        <div className="Ify-p30 Ify-m20 Ify-border Ify-border">
+          <h2>Isharify vertical tabs</h2>
+          <VerticalTabs />
+        </div>
+        {/* Vertical tab components end */}
+
+        {/* Table components start */}
+        <div className="Ify-p30 Ify-m20 Ify-border Ify-border">
+          <h2>Isharify Table</h2>
+          <Table />
+        </div>
+        {/* Table components end */}
       </main>
       <Footer />
     </>

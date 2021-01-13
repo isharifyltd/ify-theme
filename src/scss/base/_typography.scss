@@ -1,5 +1,28 @@
+.Ify-heading-one,
+.Ify-heading-two,
+.Ify-heading-three,
+.Ify-heading-four,
+.Ify-heading-five,
+.Ify-heading-six {
+  font-weight: 500;
+  overflow-wrap: anywhere;
+}
+
+.Ify-heading-one {
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.Ify-heading-two {
+  font-size: 20px;
+  line-height: 26px;
+}
+
 .Ify-heading-three {
   font-size: 18px;
   line-height: 24px;
-  font-weight: 500;
+}
+.Ify-heading-four {
+  font-size: 16px;
+  line-height: 22px;
 }

@@ -1,4 +1,5 @@
 @import "base/reset";
+@import "base/mui-reset";
 @import "base/typography";
 
 // Layout
@@ -15,6 +16,8 @@
 @import "components/tooltip";
 @import "components/vertical-tab";
 @import "components/table";
+@import "components/modal";
+@import "components/checkbox";
 
 // Utils
 @import "utils/helper";

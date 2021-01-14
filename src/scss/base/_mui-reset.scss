@@ -1,3 +1,74 @@
+// .MuiTabs-flexContainer {
+//   border-bottom: 2px solid #eee;
+// }
+
+// .MuiTabs-indicator {
+//   background-color: #0097f3 !important;
+// }
+
+// .MuiTab-textColorPrimary.Mui-selected {
+//   color: #0097f3 !important;
+// }
+
+// .MuiBox-root {
+//   padding: 0 !important;
+//   padding-top: 24px !important;
+// }
+
+// @media (min-width: 600px) {
+//   .MuiTab-root {
+//     min-width: unset !important;
+//   }
+// }
+
+// .MuiTab-root {
+//   padding: 0 !important;
+//   color: #212529 !important;
+//   overflow: hidden;
+//   position: relative;
+//   font-size: 14px !important;
+//   max-width: 264px;
+//   min-width: 72px;
+//   box-sizing: border-box;
+//   min-height: 48px;
+//   text-align: center;
+//   flex-shrink: 0;
+//   line-height: 1.75;
+//   white-space: normal;
+//   letter-spacing: 0.02857em;
+//   text-transform: initial !important;
+// }
+
+// .MuiTab-root:not(:last-child) {
+//   margin-right: 48px !important;
+// }
+
+// .MuiTouchRipple-root {
+//   display: none !important;
+// }
+
+// .MuiPaper-rounded {
+//   border-radius: 0px !important;
+// }
+
+// .MuiTouchRipple-root {
+//   display: none;
+// }
+
+// .MuiPaper-root {
+//   overflow-x: hidden;
+//   border-radius: 0 !important;
+//   box-shadow: none !important;
+//   color: #292929 !important;
+//   background-color: #ffffff !important;
+// }
+
+// @media (min-width: 601px) {
+//   .MuiPaper-root.MuiDialog-paper {
+//     overflow-y: unset;
+//   }
+// }
+
 .MuiTabs-flexContainer {
   border-bottom: 2px solid #eee;
 }
@@ -13,6 +84,10 @@
 .MuiBox-root {
   padding: 0 !important;
   padding-top: 24px !important;
+}
+
+.MuiDialog-paperFullWidth {
+  width: 90% !important;
 }
 
 @media (min-width: 600px) {

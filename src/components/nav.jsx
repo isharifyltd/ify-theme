@@ -1,4 +1,5 @@
 import React from "react";
+import BriefcaseIcon from "../icons/breafcase-icon";
 import CreditCardIcon from "../icons/credit-card-icon";
 import HandIcon from "../icons/hand-icon";
 import ListCheckIcon from "../icons/list-check-icon";
@@ -36,7 +37,7 @@ const Nav = () => {
         </li>
         <li className="Ify-nav-item">
           <a className="Ify-nav-link" href="#!">
-            <ListCheckIcon className="Ify-nav-icon" />
+            <BriefcaseIcon className="Ify-nav-icon" />
             <span>Projects</span>
           </a>
         </li>

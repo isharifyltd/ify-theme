@@ -520,6 +520,24 @@ ul {
   background: #f1f1f1;
 }
 
+.Ify-color-transparent {
+  color: transparent;
+}
+
+.Ify-color-transparent:focus + .Ify-over-input {
+  display: none;
+}
+
+.Ify-color-transparent:focus {
+  color: inherit;
+}
+
+.Ify-over-input {
+  position: absolute;
+  top: 9px;
+  left: 11px;
+}
+
 /* Remove default Radio Buttons */
 [type="radio"]:not(:checked),
 [type="radio"]:checked {
@@ -840,6 +858,7 @@ ul {
 .Ify-table {
   width: 100%;
   text-align: left;
+  font-size: 13px;
   border-collapse: collapse;
 }
 
@@ -866,6 +885,12 @@ ul {
 .Ify-table.Ify-table-lg th,
 .Ify-table.Ify-table-lg td {
   padding: 12px;
+}
+
+.Ify-table-sticky-header thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .Ify-modal {
@@ -1041,6 +1066,26 @@ ul {
   margin-bottom: 0;
 }
 
+.Ify-alert-modal {
+  width: 320px;
+  padding: 32px;
+}
+
+.Ify-alert-modal .Ify-alert-title {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 4px;
+}
+
+.Ify-alert-modal .Ify-alert-content {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.Ify-alert-modal .Ify-btn-group {
+  margin-top: 24px;
+}
+
 .Ify-p5 {
   padding: 5px;
 }
@@ -1168,6 +1213,10 @@ ul {
   margin-top: 10px;
 }
 
+.Ify-mt30 {
+  margin-top: 30px;
+}
+
 .Ify-mt32 {
   margin-top: 32px;
 }
@@ -1207,4 +1256,12 @@ ul {
 
 .Ify-hide {
   display: none;
+}
+
+.Ify-hover-pointer {
+  cursor: pointer;
+}
+
+.Ify-hover-blue:hover {
+  color: #0097f3;
 }

@@ -71,3 +71,19 @@
 .Ify-input[readonly] {
   background: #f1f1f1;
 }
+
+.Ify-color-transparent {
+  color: transparent;
+  &:focus + .Ify-over-input {
+    display: none;
+  }
+  &:focus {
+    color: inherit;
+  }
+}
+
+.Ify-over-input {
+  position: absolute;
+  top: 9px;
+  left: 11px;
+}

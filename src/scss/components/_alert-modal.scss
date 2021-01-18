@@ -1,0 +1,19 @@
+.Ify-alert-modal {
+  width: 320px;
+  padding: 32px;
+
+  & .Ify-alert-title {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 4px;
+  }
+
+  & .Ify-alert-content {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  & .Ify-btn-group {
+    margin-top: 24px;
+  }
+}

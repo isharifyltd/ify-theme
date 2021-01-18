@@ -12,3 +12,13 @@
 .Ify-hide {
   display: none;
 }
+
+.Ify-hover-pointer {
+  cursor: pointer;
+}
+
+.Ify-hover-blue {
+  &:hover {
+    color: #0097f3;
+  }
+}

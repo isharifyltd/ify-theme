@@ -1,6 +1,7 @@
 .Ify-table {
   width: 100%;
   text-align: left;
+  font-size: 13px;
   border-collapse: collapse;
 
   & th,
@@ -30,5 +31,12 @@
   & th,
   & td {
     padding: 12px;
+  }
+}
+
+.Ify-table-sticky-header {
+  & thead th {
+    position: sticky;
+    top: 0;
   }
 }

@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[View Demo](https://isharifyltd.github.io/ify-theme/build/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

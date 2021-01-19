@@ -18,7 +18,7 @@ const Table = () => {
             <td>CMO</td>
             <td>CMO45</td>
             <td>
-              <button class="Ify-inline-btn Ify-btn-edit">Edit</button>
+              <button className="Ify-inline-btn Ify-btn-edit">Edit</button>
             </td>
           </tr>
           <tr>
@@ -26,7 +26,7 @@ const Table = () => {
             <td>COO</td>
             <td>COO</td>
             <td>
-              <button class="Ify-inline-btn Ify-btn-edit">Edit</button>
+              <button className="Ify-inline-btn Ify-btn-edit">Edit</button>
             </td>
           </tr>
           <tr>
@@ -34,7 +34,7 @@ const Table = () => {
             <td>CRO</td>
             <td>CRO</td>
             <td>
-              <button class="Ify-inline-btn Ify-btn-edit">Edit</button>
+              <button className="Ify-inline-btn Ify-btn-edit">Edit</button>
             </td>
           </tr>
           <tr>
@@ -42,7 +42,7 @@ const Table = () => {
             <td>AO</td>
             <td>AO</td>
             <td>
-              <button class="Ify-inline-btn Ify-btn-edit">Edit</button>
+              <button className="Ify-inline-btn Ify-btn-edit">Edit</button>
             </td>
           </tr>
           <tr>
@@ -50,7 +50,7 @@ const Table = () => {
             <td>AO</td>
             <td>AO</td>
             <td>
-              <button class="Ify-inline-btn Ify-btn-edit">Edit</button>
+              <button className="Ify-inline-btn Ify-btn-edit">Edit</button>
             </td>
           </tr>
           <tr>
@@ -58,7 +58,7 @@ const Table = () => {
             <td>SAO</td>
             <td>SAO</td>
             <td>
-              <button class="Ify-inline-btn Ify-btn-edit">Edit</button>
+              <button className="Ify-inline-btn Ify-btn-edit">Edit</button>
             </td>
           </tr>
           <tr>
@@ -66,7 +66,7 @@ const Table = () => {
             <td>Test User</td>
             <td>test</td>
             <td>
-              <button class="Ify-inline-btn Ify-btn-edit">Edit</button>
+              <button className="Ify-inline-btn Ify-btn-edit">Edit</button>
             </td>
           </tr>
         </tbody>

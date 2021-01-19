@@ -5,6 +5,8 @@ import Footer from "./layout/footer";
 import Tooltip from "./components/tooltip";
 import VerticalTabs from "./components/vertical-tabs";
 import Table from "./components/table";
+import Radio from "./components/radio";
+import Checkbox from "./components/checkbox";
 
 function App() {
   return (
@@ -14,14 +16,18 @@ function App() {
         {/* Button components start */}
         <div className="Ify-p30 Ify-m20 Ify-border">
           <h2>Isharify buttons</h2>
-          <p style={{ marginBottom: "10px" }}>Button will be 'Title Case'</p>
+          <p className="Ify-mb10">Button will be 'Title Case'</p>
           <Button />
+          <p className="Ify-mb10 Ify-mt10">Radio button</p>
+          <Radio />
+          <p className="Ify-mb10 Ify-mt10">Checkbox button</p>
+          <Checkbox />
         </div>
         {/* Button components end */}
         {/* Button components start */}
         <div className="Ify-p30 Ify-m20 Ify-border">
           <h2>Isharify tooltip</h2>
-          <p style={{ marginBottom: "10px" }}>Tooltip will be 'Sentence case'</p>
+          <p className="Ify-mb10">Tooltip will be 'Sentence case'</p>
           <div className="Ify-tooltip-parent">
             <button className="Ify-btn Ify-btn-cancel">Isharify tooltip parent</button>
             <Tooltip />
@@ -32,7 +38,7 @@ function App() {
         {/* Form components start */}
         <div className="Ify-p30 Ify-m20 Ify-border Ify-border">
           <h2>Isharify input fields</h2>
-          <p style={{ marginBottom: "10px" }}>
+          <p className="Ify-mb10">
             Label will be 'Title Case' and placeholder will be 'Sentence case' and no fullstop and required field star
             will take a space.
           </p>

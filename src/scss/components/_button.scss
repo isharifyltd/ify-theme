@@ -96,3 +96,8 @@
   right: 8px;
   color: #7a7a7a;
 }
+
+button:disabled {
+  cursor: default !important;
+  text-decoration: none !important;
+}

@@ -50,7 +50,7 @@ const Nav = () => {
           </a>
         </li>
         <li className="Ify-nav-item">
-          <a className="Ify-nav-link Ify-dropdown-parent" href="#!">
+          <div className="Ify-nav-link Ify-dropdown-parent" href="#!">
             <Usericon className="Ify-nav-icon" />
             <ShevronDownIcon className="Ify-nav-icon" style={{ marginLeft: "-4px" }} />
 
@@ -67,7 +67,7 @@ const Nav = () => {
                 </a>
               </div>
             </div>
-          </a>
+          </div>
         </li>
       </ul>
     </nav>

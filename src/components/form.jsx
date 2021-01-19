@@ -31,7 +31,7 @@ const Form = () => {
       <div className="Ify-form-control">
         <label className="Ify-label">Month, Year</label>
         <div className="Ify-input-wrapper">
-          <select class="Ify-input Ify-select" name="month">
+          <select className="Ify-input Ify-select" name="month">
             <option value="1####2021">January, 2021</option>
             <option value="12####2020">December, 2020</option>
             <option value="11####2020">November, 2020</option>

@@ -12,14 +12,14 @@ const Form = () => {
         </div>
         <div className="Ify-error-msg">Isharify error message</div>
       </div>
-      <br />
+
       <div className="Ify-form-control">
         <label className="Ify-label">Isharify Label Required *</label>
         <div className="Ify-input-wrapper">
           <input className="Ify-input" type="text" placeholder="Isharify text field" />
         </div>
       </div>
-      <br />
+
       <div className="Ify-form-control">
         <label className="Ify-label">Isharify Label Required *</label>
         <div className="Ify-input-wrapper">
@@ -27,7 +27,7 @@ const Form = () => {
           <CalenderIcon className="Ify-icon-inside-input" />
         </div>
       </div>
-      <br />
+
       <div className="Ify-form-control">
         <label className="Ify-label">Month, Year</label>
         <div className="Ify-input-wrapper">
@@ -39,7 +39,7 @@ const Form = () => {
           <ShevronDownIcon className="Ify-icon-inside-input" />
         </div>
       </div>
-      <br />
+
       <div className="Ify-form-control">
         <label className="Ify-label">Isharify Textarea *</label>
         <div className="Ify-input-wrapper">

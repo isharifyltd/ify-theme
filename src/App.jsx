@@ -7,6 +7,8 @@ import VerticalTabs from "./components/vertical-tabs";
 import Table from "./components/table";
 import Radio from "./components/radio";
 import Checkbox from "./components/checkbox";
+import Loading from "./components/loading";
+import Modals from "./components/modals";
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
       <main className="Ify-container">
         {/* Button components start */}
         <div className="Ify-p30 Ify-m20 Ify-border">
-          <h2>Isharify buttons</h2>
+          <h2 className="Ify-mb5">Isharify buttons</h2>
           <p className="Ify-mb10">Button will be 'Title Case'</p>
           <Button />
           <p className="Ify-mb10 Ify-mt10">Radio button</p>
@@ -24,9 +26,16 @@ function App() {
           <Checkbox />
         </div>
         {/* Button components end */}
+
+        {/* Loading component start */}
+        <div className="Ify-p30 Ify-m20 Ify-border">
+          <Loading />
+        </div>
+        {/* Loading component end */}
+
         {/* Button components start */}
         <div className="Ify-p30 Ify-m20 Ify-border">
-          <h2>Isharify tooltip</h2>
+          <h2 className="Ify-mb5">Isharify tooltip</h2>
           <p className="Ify-mb10">Tooltip will be 'Sentence case'</p>
           <div className="Ify-tooltip-parent">
             <button className="Ify-btn Ify-btn-cancel">Isharify tooltip parent</button>
@@ -36,26 +45,44 @@ function App() {
         {/* Button components end */}
 
         {/* Form components start */}
-        <div className="Ify-p30 Ify-m20 Ify-border Ify-border">
-          <h2>Isharify input fields</h2>
+        <div className="Ify-p30 Ify-m20 Ify-border">
+          <h2 className="Ify-mb5">Isharify input fields</h2>
           <p className="Ify-mb10">
             Label will be 'Title Case' and placeholder will be 'Sentence case' and no fullstop and required field star
             will take a space.
           </p>
-          <Form />
+          <div className="Ify-input-group-wrapper">
+            <Form />
+          </div>
+
+          <p className="Ify-mb10 Ify-mt10">Form two columns</p>
+          <div className="Ify-input-group-wrapper Ify-col-2">
+            <Form />
+          </div>
+          <p className="Ify-mb10 Ify-mt10">Form three columns</p>
+          <div className="Ify-input-group-wrapper Ify-col-3">
+            <Form />
+          </div>
         </div>
         {/* Form components end */}
 
         {/* Vertical tab components start */}
-        <div className="Ify-p30 Ify-m20 Ify-border Ify-border">
-          <h2>Isharify vertical tabs</h2>
+        <div className="Ify-p30 Ify-m20 Ify-border ">
+          <h2 className="Ify-mb5">Isharify modals</h2>
+          <Modals />
+        </div>
+        {/* Vertical tab components end */}
+
+        {/* Vertical tab components start */}
+        <div className="Ify-p30 Ify-m20 Ify-border ">
+          <h2 className="Ify-mb5">Isharify vertical tabs</h2>
           <VerticalTabs />
         </div>
         {/* Vertical tab components end */}
 
         {/* Table components start */}
-        <div className="Ify-p30 Ify-m20 Ify-border Ify-border">
-          <h2>Isharify Table</h2>
+        <div className="Ify-p30 Ify-m20 Ify-border">
+          <h2 className="Ify-mb5">Isharify Table</h2>
           <Table />
         </div>
         {/* Table components end */}

@@ -3,7 +3,7 @@ import Nav from "../components/nav";
 
 const Header = () => {
   return (
-    <header className="Ify-sticky-top">
+    <header className="Ify-sticky-top" style={{ zIndex: 1000 }}>
       <Nav />
     </header>
   );

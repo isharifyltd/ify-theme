@@ -103,10 +103,10 @@
   border-color: #f5f5f5;
 }
 
-[type="radio"]:disabled + span {
-  // color: #5a5a5a;
-  color: #f5f5f5;
-}
+// [type="radio"]:disabled + span {
+//   // color: #5a5a5a;
+//   color: #f5f5f5;
+// }
 
 [type="radio"]:disabled:not(:checked) + span:before {
   // border-color: #5a5a5a;

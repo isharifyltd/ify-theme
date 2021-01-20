@@ -546,6 +546,8 @@ button:disabled {
   position: absolute;
   top: 9px;
   left: 11px;
+  font-size: 14px;
+  pointer-events: none;
 }
 
 .Ify-input[readonly="true"] {
@@ -656,10 +658,6 @@ button:disabled {
 [type="radio"]:disabled:checked + span:before {
   background-color: transparent;
   border-color: #f5f5f5;
-}
-
-[type="radio"]:disabled + span {
-  color: #f5f5f5;
 }
 
 [type="radio"]:disabled:not(:checked) + span:before {

@@ -1,6 +1,7 @@
 {
   "name": "isharify-theme",
   "version": "0.1.0",
+  "after-build": "/ify-theme/build",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.2",

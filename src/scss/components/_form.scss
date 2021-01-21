@@ -93,3 +93,14 @@
 .Ify-input[readonly="true"] {
   background: #f1f1f1;
 }
+
+.Ify-input-info {
+  font-size: 12px;
+  line-height: 16px;
+  position: absolute;
+  right: 8px;
+  color: #d6d6d6;
+  pointer-events: none;
+  top: 50%;
+  transform: translateY(-50%);
+}

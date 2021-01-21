@@ -8,7 +8,8 @@ const Form = () => {
       <div className="Ify-form-control">
         <label className="Ify-label">Isharify Label</label>
         <div className="Ify-input-wrapper">
-          <input className="Ify-input" type="text" placeholder="Isharify text field" />
+          <input className="Ify-input" type="text" placeholder="Isharify text field" style={{ paddingRight: "62px" }} />
+          <span className="Ify-input-info">hrs/week</span>
         </div>
         <div className="Ify-error-msg">Isharify error message</div>
       </div>

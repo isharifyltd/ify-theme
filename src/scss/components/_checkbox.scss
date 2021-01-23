@@ -210,7 +210,8 @@ input[type="checkbox"]:not(:checked) + span:not(.lever):after {
 
 input[type="checkbox"]:checked + span:not(.lever):after {
   background: rgba(245, 245, 245, 0.5);
-  border: 2px solid #0097f3;
+  // border: 2px solid #0097f3;
+  border: 1px solid #0097f3;
 }
 
 input[type="checkbox"]:checked + span:not(.lever):before {
@@ -218,10 +219,9 @@ input[type="checkbox"]:checked + span:not(.lever):before {
   left: 1px;
   width: 8px;
   height: 13px;
-  border-top: 2px solid transparent;
-  border-left: 2px solid transparent;
-  border-right: 2px solid #0097f3;
-  border-bottom: 2px solid #0097f3;
+  // border-width: 2px;
+  border-width: 1px;
+  border-color: transparent #0097f3 #0097f3 transparent;
   transform: rotateZ(37deg);
   transform-origin: 100% 100%;
 }

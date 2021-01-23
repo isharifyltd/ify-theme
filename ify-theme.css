@@ -149,7 +149,7 @@ ul {
 
 @media (min-width: 601px) {
   .MuiPaper-root.MuiDialog-paper {
-    overflow-y: unset;
+    overflow-y: hidden;
   }
 }
 
@@ -181,6 +181,16 @@ ul {
 .Ify-heading-four {
   font-size: 16px;
   line-height: 22px;
+}
+
+.Ify-heading-five {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.Ify-heading-six {
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .Ify-footer {
@@ -325,6 +335,11 @@ ul {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background-color: #fff;
+}
+
+.Ify-btn-light .Ify-btn {
+  font-size: 13px;
+  font-weight: normal;
 }
 
 .Ify-btn-primary {
@@ -1234,7 +1249,7 @@ input[type="checkbox"]:not(:checked) + span:not(.lever):after {
 
 input[type="checkbox"]:checked + span:not(.lever):after {
   background: rgba(245, 245, 245, 0.5);
-  border: 2px solid #0097f3;
+  border: 1px solid #0097f3;
 }
 
 input[type="checkbox"]:checked + span:not(.lever):before {
@@ -1242,10 +1257,8 @@ input[type="checkbox"]:checked + span:not(.lever):before {
   left: 1px;
   width: 8px;
   height: 13px;
-  border-top: 2px solid transparent;
-  border-left: 2px solid transparent;
-  border-right: 2px solid #0097f3;
-  border-bottom: 2px solid #0097f3;
+  border-width: 1px;
+  border-color: transparent #0097f3 #0097f3 transparent;
   -webkit-transform: rotateZ(37deg);
           transform: rotateZ(37deg);
   -webkit-transform-origin: 100% 100%;
@@ -1484,6 +1497,10 @@ input[type="checkbox"]:checked + span:not(.lever):before {
   margin-top: 10px;
 }
 
+.Ify-mt15 {
+  margin-top: 15px;
+}
+
 .Ify-mt20 {
   margin-top: 20px;
 }
@@ -1628,4 +1645,12 @@ input[type="checkbox"]:checked + span:not(.lever):before {
 
 .Ify-hover-blue:hover {
   color: #0097f3;
+}
+
+.Ify-grey {
+  color: #7a7a7a;
+}
+
+.Ify-grey-2 {
+  color: #5f5f5f;
 }

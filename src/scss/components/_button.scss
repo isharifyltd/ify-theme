@@ -14,6 +14,13 @@
   background-color: #fff;
 }
 
+.Ify-btn-light {
+  & .Ify-btn {
+    font-size: 13px;
+    font-weight: normal;
+  }
+}
+
 .Ify-btn-primary {
   background-color: #0097f3;
   border: 1px solid #0097f3;

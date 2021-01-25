@@ -85,7 +85,7 @@
 .Ify-over-input {
   position: absolute;
   top: 9px;
-  left: 11px;
+  left: 10px;
   font-size: 14px;
   pointer-events: none;
 }
@@ -103,4 +103,8 @@
   pointer-events: none;
   top: 50%;
   transform: translateY(-50%);
+}
+
+:disabled ~ .Ify-icon-inside-input {
+  background: #f5f5f5;
 }

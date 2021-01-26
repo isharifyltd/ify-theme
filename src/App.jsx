@@ -9,6 +9,7 @@ import Radio from "./components/radio";
 import Checkbox from "./components/checkbox";
 import Loading from "./components/loading";
 import Modals from "./components/modals";
+import IfyDrawer from "./components/drawer";
 
 function App() {
   return (
@@ -68,8 +69,11 @@ function App() {
 
         {/* Vertical tab components start */}
         <div className="Ify-p30 Ify-m20 Ify-border ">
-          <h2 className="Ify-mb5">Isharify modals</h2>
-          <Modals />
+          <h2 className="Ify-mb5">Isharify modal and drawer</h2>
+          <div className="Ify-btn-group">
+            <Modals />
+            <IfyDrawer />
+          </div>
         </div>
         {/* Vertical tab components end */}
 

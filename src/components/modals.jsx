@@ -8,7 +8,7 @@ const Modals = () => {
   return (
     <>
       <button className="Ify-btn Ify-btn-primary" onClick={() => setOpen(true)}>
-        Click to open Modal
+        Click to Open Modal
       </button>
 
       <Dialog

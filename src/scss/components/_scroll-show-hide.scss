@@ -1,0 +1,25 @@
+.Ify-scrollbar-show-hide {
+  // Scrollbar for mozila firefox
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+
+  &:hover {
+    scrollbar-color: #dadce0 transparent;
+  }
+
+  // Scrollbar for google chrome
+  &::-webkit-scrollbar-thumb {
+    background: transparent;
+    transition: all 0.3s;
+  }
+
+  &:hover::-webkit-scrollbar-thumb {
+    background: #dadce0;
+    transition: all 0.3s;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #80868b;
+    transition: all 0.3s;
+  }
+}

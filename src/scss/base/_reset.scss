@@ -5,7 +5,10 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-family: "Roboto";
 }
 
 body {
@@ -14,6 +17,14 @@ body {
   font-size: 14px;
   font-weight: normal;
   overflow-x: hidden;
+  font-family: inherit;
+}
+
+button,
+textarea,
+input,
+a {
+  font-family: inherit;
 }
 
 a {

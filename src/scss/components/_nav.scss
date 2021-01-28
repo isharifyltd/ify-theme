@@ -26,6 +26,15 @@
   &.active {
     color: #0097f3;
   }
+
+  & .Ify-dropdown-list {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+
+    &.active {
+      border-left: 4px solid #0097f3;
+    }
+  }
 }
 
 .Ify-nav-icon {

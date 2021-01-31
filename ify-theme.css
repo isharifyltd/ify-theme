@@ -6,7 +6,10 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   outline: none;
-  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-family: "Roboto";
 }
 
 body {
@@ -15,6 +18,14 @@ body {
   font-size: 14px;
   font-weight: normal;
   overflow-x: hidden;
+  font-family: inherit;
+}
+
+button,
+textarea,
+input,
+a {
+  font-family: inherit;
 }
 
 a {
@@ -310,6 +321,15 @@ ul {
 
 .Ify-nav-link.active {
   color: #0097f3;
+}
+
+.Ify-nav-link .Ify-dropdown-list {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+
+.Ify-nav-link .Ify-dropdown-list.active {
+  border-left: 4px solid #0097f3;
 }
 
 .Ify-nav-icon {
@@ -1470,6 +1490,10 @@ input[type="checkbox"]:checked + span:not(.lever):before {
   overflow: hidden;
 }
 
+.MuiDrawer-paper.Ify-drawer-830 {
+  width: 830px;
+}
+
 .Ify-drawer {
   overflow-y: hidden;
 }
@@ -1816,4 +1840,8 @@ input[type="checkbox"]:checked + span:not(.lever):before {
 
 .Ify-grey-2 {
   color: #5f5f5f;
+}
+
+.Ify-mw80 {
+  min-width: 80px;
 }

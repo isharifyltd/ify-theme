@@ -10,6 +10,7 @@ import Checkbox from "./components/checkbox";
 import Loading from "./components/loading";
 import Modals from "./components/modals";
 import IfyDrawer from "./components/drawer";
+import InfoIcon from "./icons/info-icon";
 
 function App() {
   return (
@@ -38,8 +39,8 @@ function App() {
         <div className="Ify-p30 Ify-m20 Ify-border">
           <h2 className="Ify-mb5">Isharify tooltip</h2>
           <p className="Ify-mb10">Tooltip will be 'Sentence case'</p>
-          <div className="Ify-tooltip-parent">
-            <button className="Ify-btn Ify-btn-cancel">Isharify tooltip parent</button>
+          <div className="Ify-info Ify-tooltip-parent">
+            <InfoIcon />
             <Tooltip />
           </div>
         </div>

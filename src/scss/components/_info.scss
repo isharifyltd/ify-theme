@@ -1,0 +1,13 @@
+.Ify-info {
+  display: flex;
+  align-items: center;
+  & svg {
+    width: 14px;
+    height: 14px;
+  }
+  & .Ify-tooltip {
+    max-width: 200px;
+    left: -5px;
+    top: -45px;
+  }
+}

@@ -860,6 +860,7 @@ ul {
 
 .Ify-tooltip-parent {
   position: relative;
+  z-index: 1100;
 }
 
 .Ify-tooltip-parent:hover .Ify-tooltip {
@@ -1598,6 +1599,26 @@ input[type="checkbox"]:checked + span:not(.lever):before {
   background: #80868b;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.Ify-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Ify-info svg {
+  width: 14px;
+  height: 14px;
+}
+
+.Ify-info .Ify-tooltip {
+  max-width: 200px;
+  left: -5px;
+  top: -45px;
 }
 
 .Ify-p0 {

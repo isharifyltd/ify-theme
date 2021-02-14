@@ -216,6 +216,11 @@ ul {
   width: 100%;
 }
 
+.Ify-container-fluid {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .Ify-small-wrapper {
   max-width: 460px;
   margin-left: auto;
@@ -249,6 +254,11 @@ ul {
 .Ify-col-4 {
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
+}
+
+.Ify-col-5 {
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
 }
 
 .Ify-span-full {
@@ -312,6 +322,10 @@ ul {
   font-size: 14px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   cursor: pointer;
 }
 
@@ -860,7 +874,7 @@ ul {
 
 .Ify-tooltip-parent {
   position: relative;
-  z-index: 1100;
+  z-index: 110000000;
 }
 
 .Ify-tooltip-parent:hover .Ify-tooltip {
@@ -1325,6 +1339,7 @@ input[type="checkbox"]:checked + span:not(.lever):before {
 }
 
 .Ify-checkbox {
+  position: relative;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;

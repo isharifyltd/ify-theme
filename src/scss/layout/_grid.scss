@@ -5,6 +5,11 @@
   width: 100%;
 }
 
+.Ify-container-fluid {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .Ify-small-wrapper {
   max-width: 460px;
   margin-left: auto;
@@ -29,6 +34,10 @@
 
 .Ify-col-4 {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.Ify-col-5 {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .Ify-span-full {

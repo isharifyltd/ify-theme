@@ -227,6 +227,7 @@ input[type="checkbox"]:checked + span:not(.lever):before {
 }
 
 .Ify-checkbox {
+  position: relative;
   display: inline-flex;
   align-items: center;
   font-size: 14px;

@@ -1815,7 +1815,7 @@ input[type="checkbox"]:checked + span:not(.lever):before {
   opacity: 0.5;
 }
 
-.If-bg-white {
+.Ify-bg-white {
   background-color: #ffffff;
 }
 

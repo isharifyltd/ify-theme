@@ -1,0 +1,90 @@
+// .curved-corner-topright {
+//   width: 100px;
+//   height: 100px;
+//   overflow: hidden;
+//   position: relative;
+
+//   &:before {
+//     content: "";
+//     display: block;
+//     width: 200%;
+//     height: 200%;
+//     position: absolute;
+//     border-radius: 50%;
+//     top: 0;
+//     right: 0;
+//     box-shadow: 50px -50px 0 0 red;
+//   }
+// }
+
+// .Ify-corner-topright-parent {
+//   position: relative;
+
+//   &::before {
+//     width: 15px;
+//     height: 15px;
+//     background: yellow;
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     overflow: hidden;
+
+//     &:after {
+//       content: "";
+//       display: block;
+//       width: 200%;
+//       height: 200%;
+//       position: absolute;
+//       border-radius: 50%;
+//       top: 0px;
+//       right: 0px;
+//       background-color: #fff;
+//     }
+//   }
+// }
+
+.Ify-corner-topright {
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 100%,
+      97% 95%,
+      95% 92%,
+      92% 87%,
+      88% 83%,
+      86% 79%,
+      81% 74%,
+      78% 70%,
+      74% 66%,
+      71% 62%,
+      68% 57%,
+      64% 53%,
+      60% 48%,
+      56% 44%,
+      52% 41%,
+      48% 36%,
+      44% 33%,
+      39% 29%,
+      36% 26%,
+      32% 23%,
+      28% 20%,
+      23% 17%,
+      20% 14%,
+      17% 11%,
+      13% 8%,
+      9% 5%,
+      6% 3%
+    );
+  }
+}

@@ -14,9 +14,9 @@ const Table = () => {
         </thead>
         <tbody>
           <tr>
-            <td>1</td>
+            <td className="Ify-corner-topright">1</td>
             <td>CMO</td>
-            <td>CMO45</td>
+            <td className="Ify-corner-topright">CMO45</td>
             <td>
               <button className="Ify-inline-btn Ify-btn-edit">Edit</button>
             </td>
